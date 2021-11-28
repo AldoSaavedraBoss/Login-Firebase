@@ -1,0 +1,6 @@
+framework module Pods_Login_Fire {
+  umbrella header "Pods-Login Fire-umbrella.h"
+
+  export *
+  module * { export * }
+}
