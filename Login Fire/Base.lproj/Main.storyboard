@@ -57,8 +57,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="AceptarBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N45-lT-NyI"/>
-                                    <segue destination="N9M-nl-Anh" kind="show" identifier="Inicio" id="bbn-70-Bgp"/>
+                                    <action selector="AceptarBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mrj-uq-uMn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agy-Za-kKR">
@@ -97,6 +96,7 @@
                     <connections>
                         <outlet property="PassLBL" destination="1iV-9s-K20" id="Zqf-xi-ZDw"/>
                         <outlet property="UsuarioLBL" destination="Gb2-6e-0yS" id="jk4-G4-zyY"/>
+                        <outlet property="viewAuth" destination="8bC-Xf-vdC" id="uJU-Tl-NNL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -155,6 +155,9 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="RegistrarBtn:" destination="CeA-Wt-gtm" eventType="touchUpInside" id="By0-Yy-4rE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8pE-p3-Eqo"/>
@@ -171,6 +174,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nXs-X8-prQ"/>
+                    <connections>
+                        <outlet property="EmailTXF" destination="ApF-lc-ddW" id="ov8-2c-udO"/>
+                        <outlet property="PassTXF" destination="zK3-2y-cdy" id="IcB-YW-qzR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mvZ-fV-bEM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

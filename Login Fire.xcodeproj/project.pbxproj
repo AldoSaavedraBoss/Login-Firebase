@@ -17,6 +17,7 @@
 		28C93A9A27520F8700C8F33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C93A9927520F8700C8F33E /* Assets.xcassets */; };
 		28C93A9D27520F8700C8F33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C93A9B27520F8700C8F33E /* LaunchScreen.storyboard */; };
 		28C93AA62752104900C8F33E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28C93AA52752104900C8F33E /* GoogleService-Info.plist */; };
+		28D22CF2275351DA00F4A547 /* InicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D22CF1275351DA00F4A547 /* InicioViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		28C93A9C27520F8700C8F33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C93A9E27520F8700C8F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C93AA52752104900C8F33E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28D22CF1275351DA00F4A547 /* InicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InicioViewController.xib; sourceTree = "<group>"; };
 		79EC1B4485CC2FE5FD32F249 /* Pods-Login Fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Fire.release.xcconfig"; path = "Target Support Files/Pods-Login Fire/Pods-Login Fire.release.xcconfig"; sourceTree = "<group>"; };
 		895555058956E0D3874C4FCA /* Pods_Login_Fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7155ABB8FF1ECCC7534595 /* Pods-Login Fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Fire.debug.xcconfig"; path = "Target Support Files/Pods-Login Fire/Pods-Login Fire.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				28C93AA52752104900C8F33E /* GoogleService-Info.plist */,
 				28BD5A9A275311E1008BD0CA /* InicioViewController.swift */,
 				28BD5A9D2753173F008BD0CA /* RegistroViewController.swift */,
+				28D22CF1275351DA00F4A547 /* InicioViewController.xib */,
 			);
 			path = "Login Fire";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				28C93AA62752104900C8F33E /* GoogleService-Info.plist in Resources */,
 				28C93A9A27520F8700C8F33E /* Assets.xcassets in Resources */,
 				28C93A9827520F7C00C8F33E /* Main.storyboard in Resources */,
+				28D22CF2275351DA00F4A547 /* InicioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
